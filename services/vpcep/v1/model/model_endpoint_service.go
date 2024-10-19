@@ -1,8 +1,8 @@
 package model
 
 import (
-	"github.com/huaweicloud/huaweicloud-sdk-go-v3/core/sdktime"
-	"github.com/huaweicloud/huaweicloud-sdk-go-v3/core/utils"
+	"github.com/tan-zhuo/huaweicloud-sdk-go-v3/core/sdktime"
+	"github.com/tan-zhuo/huaweicloud-sdk-go-v3/core/utils"
 
 	"strings"
 )

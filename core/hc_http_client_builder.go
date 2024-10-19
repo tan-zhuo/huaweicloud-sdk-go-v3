@@ -21,12 +21,12 @@ package core
 
 import (
 	"fmt"
-	"github.com/huaweicloud/huaweicloud-sdk-go-v3/core/auth"
-	"github.com/huaweicloud/huaweicloud-sdk-go-v3/core/auth/provider"
-	"github.com/huaweicloud/huaweicloud-sdk-go-v3/core/config"
-	"github.com/huaweicloud/huaweicloud-sdk-go-v3/core/impl"
-	"github.com/huaweicloud/huaweicloud-sdk-go-v3/core/region"
-	"github.com/huaweicloud/huaweicloud-sdk-go-v3/core/sdkerr"
+	"github.com/tan-zhuo/huaweicloud-sdk-go-v3/core/auth"
+	"github.com/tan-zhuo/huaweicloud-sdk-go-v3/core/auth/provider"
+	"github.com/tan-zhuo/huaweicloud-sdk-go-v3/core/config"
+	"github.com/tan-zhuo/huaweicloud-sdk-go-v3/core/impl"
+	"github.com/tan-zhuo/huaweicloud-sdk-go-v3/core/region"
+	"github.com/tan-zhuo/huaweicloud-sdk-go-v3/core/sdkerr"
 	"reflect"
 	"strings"
 )

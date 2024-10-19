@@ -22,11 +22,11 @@ package invoker
 import (
 	"time"
 
-	"github.com/huaweicloud/huaweicloud-sdk-go-v3/core"
-	"github.com/huaweicloud/huaweicloud-sdk-go-v3/core/auth"
-	"github.com/huaweicloud/huaweicloud-sdk-go-v3/core/def"
-	"github.com/huaweicloud/huaweicloud-sdk-go-v3/core/exchange"
-	"github.com/huaweicloud/huaweicloud-sdk-go-v3/core/invoker/retry"
+	"github.com/tan-zhuo/huaweicloud-sdk-go-v3/core"
+	"github.com/tan-zhuo/huaweicloud-sdk-go-v3/core/auth"
+	"github.com/tan-zhuo/huaweicloud-sdk-go-v3/core/def"
+	"github.com/tan-zhuo/huaweicloud-sdk-go-v3/core/exchange"
+	"github.com/tan-zhuo/huaweicloud-sdk-go-v3/core/invoker/retry"
 )
 
 type RetryChecker func(interface{}, error) bool

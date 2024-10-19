@@ -1,4 +1,4 @@
-module github.com/huaweicloud/huaweicloud-sdk-go-v3
+module github.com/tan-zhuo/huaweicloud-sdk-go-v3
 
 go 1.14
 

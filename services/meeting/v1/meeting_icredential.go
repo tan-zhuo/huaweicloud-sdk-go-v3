@@ -3,11 +3,11 @@ package v1
 import (
 	"encoding/base64"
 	"encoding/json"
-	"github.com/huaweicloud/huaweicloud-sdk-go-v3/core/auth"
-	"github.com/huaweicloud/huaweicloud-sdk-go-v3/core/impl"
-	"github.com/huaweicloud/huaweicloud-sdk-go-v3/core/request"
-	"github.com/huaweicloud/huaweicloud-sdk-go-v3/core/response"
-	"github.com/huaweicloud/huaweicloud-sdk-go-v3/core/sdkerr"
+	"github.com/tan-zhuo/huaweicloud-sdk-go-v3/core/auth"
+	"github.com/tan-zhuo/huaweicloud-sdk-go-v3/core/impl"
+	"github.com/tan-zhuo/huaweicloud-sdk-go-v3/core/request"
+	"github.com/tan-zhuo/huaweicloud-sdk-go-v3/core/response"
+	"github.com/tan-zhuo/huaweicloud-sdk-go-v3/core/sdkerr"
 	"time"
 )
 

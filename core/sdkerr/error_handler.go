@@ -20,8 +20,8 @@
 package sdkerr
 
 import (
-	"github.com/huaweicloud/huaweicloud-sdk-go-v3/core/request"
-	"github.com/huaweicloud/huaweicloud-sdk-go-v3/core/response"
+	"github.com/tan-zhuo/huaweicloud-sdk-go-v3/core/request"
+	"github.com/tan-zhuo/huaweicloud-sdk-go-v3/core/response"
 )
 
 type ErrorHandler interface {

@@ -1,9 +1,9 @@
 package v2
 
 import (
-	httpclient "github.com/huaweicloud/huaweicloud-sdk-go-v3/core"
-	"github.com/huaweicloud/huaweicloud-sdk-go-v3/core/invoker"
-	"github.com/huaweicloud/huaweicloud-sdk-go-v3/services/aad/v2/model"
+	httpclient "github.com/tan-zhuo/huaweicloud-sdk-go-v3/core"
+	"github.com/tan-zhuo/huaweicloud-sdk-go-v3/core/invoker"
+	"github.com/tan-zhuo/huaweicloud-sdk-go-v3/services/aad/v2/model"
 )
 
 type AadClient struct {

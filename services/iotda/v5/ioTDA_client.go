@@ -1,9 +1,9 @@
 package v5
 
 import (
-	httpclient "github.com/huaweicloud/huaweicloud-sdk-go-v3/core"
-	"github.com/huaweicloud/huaweicloud-sdk-go-v3/core/invoker"
-	"github.com/huaweicloud/huaweicloud-sdk-go-v3/services/iotda/v5/model"
+	httpclient "github.com/tan-zhuo/huaweicloud-sdk-go-v3/core"
+	"github.com/tan-zhuo/huaweicloud-sdk-go-v3/core/invoker"
+	"github.com/tan-zhuo/huaweicloud-sdk-go-v3/services/iotda/v5/model"
 )
 
 type IoTDAClient struct {
@@ -1278,10 +1278,10 @@ func (c *IoTDAClient) ResetFingerprintInvoker(request *model.ResetFingerprintReq
 //
 // - limit n ;示例(select * from device limit 10)
 //
-//	最大返回n条结果数据
+//		最大返回n条结果数据
 //
-//   - limit m,n; 示例(select * from device limit 20,10)
-//     搜索偏移量为m，最大返回n条结果数据
+//	  - limit m,n; 示例(select * from device limit 20,10)
+//	    搜索偏移量为m，最大返回n条结果数据
 //
 // ###### 限制
 //

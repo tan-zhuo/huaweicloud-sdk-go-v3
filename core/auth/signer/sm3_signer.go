@@ -21,7 +21,7 @@ package signer
 
 import (
 	"encoding/hex"
-	"github.com/huaweicloud/huaweicloud-sdk-go-v3/core/request"
+	"github.com/tan-zhuo/huaweicloud-sdk-go-v3/core/request"
 )
 
 const (

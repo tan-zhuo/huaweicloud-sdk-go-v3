@@ -2,8 +2,8 @@ package model
 
 import (
 	"errors"
-	"github.com/huaweicloud/huaweicloud-sdk-go-v3/core/converter"
-	"github.com/huaweicloud/huaweicloud-sdk-go-v3/core/utils"
+	"github.com/tan-zhuo/huaweicloud-sdk-go-v3/core/converter"
+	"github.com/tan-zhuo/huaweicloud-sdk-go-v3/core/utils"
 	"github.com/shopspring/decimal"
 	"strings"
 )

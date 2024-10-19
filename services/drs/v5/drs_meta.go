@@ -1,9 +1,9 @@
 package v5
 
 import (
-	"github.com/huaweicloud/huaweicloud-sdk-go-v3/core/def"
+	"github.com/tan-zhuo/huaweicloud-sdk-go-v3/core/def"
 
-	"github.com/huaweicloud/huaweicloud-sdk-go-v3/services/drs/v5/model"
+	"github.com/tan-zhuo/huaweicloud-sdk-go-v3/services/drs/v5/model"
 	"net/http"
 )
 

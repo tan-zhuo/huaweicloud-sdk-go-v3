@@ -21,12 +21,12 @@ package internal
 
 import (
 	"errors"
-	"github.com/huaweicloud/huaweicloud-sdk-go-v3/core/config"
-	"github.com/huaweicloud/huaweicloud-sdk-go-v3/core/impl"
-	"github.com/huaweicloud/huaweicloud-sdk-go-v3/core/request"
-	"github.com/huaweicloud/huaweicloud-sdk-go-v3/core/response"
-	"github.com/huaweicloud/huaweicloud-sdk-go-v3/core/sdkerr"
-	"github.com/huaweicloud/huaweicloud-sdk-go-v3/core/utils"
+	"github.com/tan-zhuo/huaweicloud-sdk-go-v3/core/config"
+	"github.com/tan-zhuo/huaweicloud-sdk-go-v3/core/impl"
+	"github.com/tan-zhuo/huaweicloud-sdk-go-v3/core/request"
+	"github.com/tan-zhuo/huaweicloud-sdk-go-v3/core/response"
+	"github.com/tan-zhuo/huaweicloud-sdk-go-v3/core/sdkerr"
+	"github.com/tan-zhuo/huaweicloud-sdk-go-v3/core/utils"
 	"os"
 	"reflect"
 	"strings"

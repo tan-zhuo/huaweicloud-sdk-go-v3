@@ -40201,7 +40201,7 @@ HuaweiCloud SDK APIG
 - _新增特性_
   - 无
 - _解决问题_
-  - [Issue 58](https://github.com/huaweicloud/huaweicloud-sdk-go-v3/issues/58) 修复请求重试问题
+  - [Issue 58](https://github.com/tan-zhuo/huaweicloud-sdk-go-v3/issues/58) 修复请求重试问题
 - _特性变更_
   - 无
 
@@ -42467,7 +42467,7 @@ HuaweiCloud SDK APIG
 - _新增特性_
   - 无
 - _解决问题_
-  - [Issue 56](https://github.com/huaweicloud/huaweicloud-sdk-go-v3/issues/56) 修复RequestHandler的问题
+  - [Issue 56](https://github.com/tan-zhuo/huaweicloud-sdk-go-v3/issues/56) 修复RequestHandler的问题
 - _特性变更_
   - 无
 
@@ -43817,7 +43817,7 @@ HuaweiCloud SDK APIG
   - 支持联邦认证
   - 支持认证信息管理
 - _解决问题_
-  - [Issue 53](https://github.com/huaweicloud/huaweicloud-sdk-go-v3/issues/53) 修复客户端发送请求出现panic的问题
+  - [Issue 53](https://github.com/tan-zhuo/huaweicloud-sdk-go-v3/issues/53) 修复客户端发送请求出现panic的问题
 - _特性变更_
   - 无
 
@@ -49593,7 +49593,7 @@ HuaweiCloud SDK APIG
 - _新增特性_
     - 无
 - _解决问题_
-    - [Issue 22](https://github.com/huaweicloud/huaweicloud-sdk-go-v3/issues/22): 修正接口`ListAddonInstances`的响应参数`status`可选值
+    - [Issue 22](https://github.com/tan-zhuo/huaweicloud-sdk-go-v3/issues/22): 修正接口`ListAddonInstances`的响应参数`status`可选值
 - _特性变更_
     - 无
 
@@ -49730,7 +49730,7 @@ HuaweiCloud SDK APIG
 - _新增特性_
     - 无
 - _解决问题_
-    - [Issue 20](https://github.com/huaweicloud/huaweicloud-sdk-go-v3/issues/20): 修复`extendParam`类型定义错误的问题
+    - [Issue 20](https://github.com/tan-zhuo/huaweicloud-sdk-go-v3/issues/20): 修复`extendParam`类型定义错误的问题
 - _特性变更_
     - 接口`DeleteCluster`新增请求参数`tobedeleted`
 
@@ -49956,7 +49956,7 @@ HuaweiCloud SDK APIG
 - _新增特性_
     - 无
 - _解决问题_
-    - [Issue 17](https://github.com/huaweicloud/huaweicloud-sdk-go-v3/issues/17): 修复`EpDetailType`枚举定义错误的问题
+    - [Issue 17](https://github.com/tan-zhuo/huaweicloud-sdk-go-v3/issues/17): 修复`EpDetailType`枚举定义错误的问题
 - _特性变更_
     - 无
 
@@ -49965,7 +49965,7 @@ HuaweiCloud SDK APIG
 - _新增特性_
     - 无
 - _解决问题_
-    - [Issue 19](https://github.com/huaweicloud/huaweicloud-sdk-go-v3/issues/19): 修复`ListKeypairs`响应体类型的问题
+    - [Issue 19](https://github.com/tan-zhuo/huaweicloud-sdk-go-v3/issues/19): 修复`ListKeypairs`响应体类型的问题
 - _特性变更_
     - 无
 
@@ -51034,7 +51034,7 @@ HuaweiCloud SDK APIG
 - _新增特性_
     - 无
 - _解决问题_
-    - [Issue 8](https://github.com/huaweicloud/huaweicloud-sdk-go-v3/issues/8) Fix the problem that creating scaling
+    - [Issue 8](https://github.com/tan-zhuo/huaweicloud-sdk-go-v3/issues/8) Fix the problem that creating scaling
       policy failed.
 - _特性变更_
     - 无
@@ -51082,7 +51082,7 @@ HuaweiCloud SDK APIG
 - _新增特性_
     - 无
 - _解决问题_
-    - 同步[Pull requests #11](https://github.com/huaweicloud/huaweicloud-sdk-go-v3/pull/11)修改
+    - 同步[Pull requests #11](https://github.com/tan-zhuo/huaweicloud-sdk-go-v3/pull/11)修改
 - _特性变更_
     - 无
 
@@ -51153,7 +51153,7 @@ HuaweiCloud SDK APIG
     - 无
 - _解决问题_
     - Fix: query参数中包含枚举变量时请求失败
-    - [Issue 7](https://github.com/huaweicloud/huaweicloud-sdk-go-v3/issues/7) 解决json.Marshal变成{}对象的问题
+    - [Issue 7](https://github.com/tan-zhuo/huaweicloud-sdk-go-v3/issues/7) 解决json.Marshal变成{}对象的问题
 - _特性变更_
     - 无
 

@@ -1,8 +1,8 @@
 package v1
 
 import (
-	"github.com/huaweicloud/huaweicloud-sdk-go-v3/core/invoker"
-	"github.com/huaweicloud/huaweicloud-sdk-go-v3/services/kvs/v1/model"
+	"github.com/tan-zhuo/huaweicloud-sdk-go-v3/core/invoker"
+	"github.com/tan-zhuo/huaweicloud-sdk-go-v3/services/kvs/v1/model"
 )
 
 type CreateTableInvoker struct {
