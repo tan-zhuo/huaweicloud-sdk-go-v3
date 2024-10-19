@@ -113,9 +113,21 @@ func (client *DefaultHttpClient) SyncInvokeHttpWithExchange(request *request.Def
 	if lnErr := client.listenRequest(req); lnErr != nil {
 		return nil, lnErr
 	}
-
 	client.recordRequestInfo(exch, req)
-	resp, err := client.goHttpClient.Do(req)
+
+	// Based on the configuration, perform reguest retries. If set to 0, do not retry.
+	var resp *http.Response
+	retries := client.httpConfig.Retries
+	for i := 0; i <= retries; i++ {
+		resp, err = client.goHttpClient.Do(req)
+		if err == nil {
+			break
+		}
+		// To avoid continuous request causing thread blocking, wait for 500 milliseconds.
+		if i < retries {
+			time.Sleep(500 * time.Millisecond)
+		}
+	}
 	if err != nil {
 		return nil, err
 	}
